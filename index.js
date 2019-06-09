@@ -22,7 +22,12 @@ function iLoveTheBeatles(number) {
   return empty
 }
 
-function 
+function theBeatlesPlay(musiciansArray, instrumentsArray) {
+  var music=[];
+  for (let i=0; i<musiciansArray.length; i++);
+  music.push(`${musiciansArray[i]} plays ${instrumentsArray}`);
+  return music;
+}
 
 
 
